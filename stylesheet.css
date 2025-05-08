@@ -30,11 +30,11 @@
     height: auto;
     width: 5%;
     font-size: large;
-    top: 200px;
+    top: 40%;
     left: 90%;
 }
 
-#GameImage
+#GameVideo
 {
     width: 50%;
     height: auto;
@@ -43,9 +43,9 @@
 
 #LeftImg
 {
-    top: 100px;
+    top: 150px;
     right: 80%;
-    width: 40%;
+    width: 35%;
     height: auto;
     position: absolute;
     opacity: 50%;
@@ -54,9 +54,9 @@
 
 #RightImg
 {
-    top: 100px;
+    top: 150px;
     left: 80%;
-    width: 40%;
+    width: 35%;
     height: auto;
     position: absolute;
     opacity: 50%;
@@ -65,5 +65,5 @@
 
 #GameDescription
 {
-    margin-top: 20%;
+    margin-top: 5%;
 }
