@@ -1,17 +1,30 @@
+body
+{
+    background-color: black;
+}
+
 #Intro
 {
-    position: relative;
     text-align: center;
-    color: black;
+    color: white;
     font-size: auto;
+    position: absolute;
+    left: 42.5%;
 }
 
 #Projects
 {
-    position: relative;
+    position: absolute;
     text-align: center;
-    color: black;
+    color: white;
     font-size: large;
+    top: 18%;
+}
+
+#GameName
+{
+    text-align: center;
+    padding-right: 3%;
 }
 
 #LeftButton
@@ -20,7 +33,7 @@
     height: auto;
     width: 5%;
     font-size: large;
-    top: 40%;
+    top: 80%;
     right: 90%;
 }
 
@@ -30,7 +43,7 @@
     height: auto;
     width: 5%;
     font-size: large;
-    top: 40%;
+    top: 80%;
     left: 90%;
 }
 
@@ -39,6 +52,7 @@
     width: 50%;
     height: auto;
     z-index: 1;
+    left: 100%;
 }
 
 #LeftImg
@@ -61,6 +75,17 @@
     position: absolute;
     opacity: 50%;
     z-index: -1;
+}
+
+#Description
+{
+    top: 100%;
+    left: 25%;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    opacity: 50%;
+    font-size: larger;
 }
 
 #GameDescription
