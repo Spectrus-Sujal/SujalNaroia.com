@@ -8,8 +8,7 @@ body
     text-align: center;
     color: white;
     font-size: auto;
-    position: absolute;
-    left: 42.5%;
+    padding-right: 3%;
 }
 
 #Projects
