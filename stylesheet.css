@@ -7,7 +7,7 @@ body
 {
     text-align: center;
     color: white;
-    font-size: auto;
+    font-size: larger;
 }
 
 #Projects
@@ -16,7 +16,7 @@ body
     text-align: center;
     color: white;
     font-size: large;
-    top: 18%;
+    top: 20%;
 }
 
 
@@ -45,7 +45,7 @@ body
     width: 50%;
     height: auto;
     z-index: 1;
-    padding-right: 5%;
+    padding-left: 3%;
 }
 
 #LeftImg
@@ -72,13 +72,12 @@ body
 
 #Description
 {
-    top: 100%;
-    left: 25%;
-    width: 50%;
+    left: 10%;
+    width: 80%;
     height: auto;
     position: absolute;
     opacity: 50%;
-    font-size: larger;
+    font-size: x-large;
 }
 
 #GameDescription
