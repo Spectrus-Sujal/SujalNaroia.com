@@ -86,3 +86,10 @@ body
 {
     margin-top: 5%;
 }
+
+#GameName
+{
+    text-align: center;
+    font-size: large;
+    padding-top: 13%;
+}
