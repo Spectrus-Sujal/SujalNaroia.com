@@ -79,7 +79,9 @@ function UpdateMainProject()
 {
     title.innerHTML = Projects[currentProj].Name;
     
-    mainVid.setAttribute("src", "videos/" + Projects[currentProj].Video);
+    // mainVid.setAttribute("src", "videos/" + Projects[currentProj].Video);
+
+    mainVid.src = "images/" + Projects[currentProj].Img
 
     leftImg.src = "images/" + GetLeftProj().Img;
     rightImg.src = "images/" + GetRightProj().Img;
