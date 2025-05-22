@@ -86,7 +86,7 @@ function UpdateMainProject()
     leftImg.src = "images/" + GetLeftProj().Img;
     rightImg.src = "images/" + GetRightProj().Img;
     desc.innerHTML = Projects[currentProj].Description
-    myRole.innerHTML = "My Role</br>" + Projects[currentProj].MyRole;
+    myRole.innerHTML = Projects[currentProj].MyRole;
 }
 
 UpdateMainProject();

@@ -16,7 +16,7 @@ body
     text-align: center;
     color: white;
     font-size: large;
-    top: 20%;
+    top: 180px;
 }
 
 
@@ -52,7 +52,7 @@ body
 
 #LeftImg
 {
-    top: 150px;
+    top: 30%;
     right: 80%;
     width: 35%;
     height: auto;
@@ -63,7 +63,7 @@ body
 
 #RightImg
 {
-    top: 150px;
+    top: 30%;
     left: 80%;
     width: 35%;
     height: auto;
@@ -87,9 +87,13 @@ body
     margin-top: 5%;
 }
 
+#MyRole
+{
+    
+}
+
 #GameName
 {
     text-align: center;
-    font-size: large;
-    padding-top: 13%;
+    font-size: xx-large;
 }
